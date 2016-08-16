@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
 .clear {
   clear:both;
@@ -39,6 +40,8 @@
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'cantarellregular', 'Open Sans Condensed', sans-serif;;
+  font-weight:bold;
 }
 
 header {
@@ -47,4 +50,16 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'cantarellbold', 'Open Sans Condensed', sans-serif;
+  font-size:48px;
+}
+
+h2 {
+  font-family: 'cantarelloblique', 'Open Sans Condensed', sans-serif;
+}
+p {
+  font-family: 'cantarellregular';
 }
